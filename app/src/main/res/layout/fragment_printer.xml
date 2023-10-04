@@ -46,11 +46,9 @@
             android:id="@+id/footerLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:flexWrap="wrap"
             android:orientation="vertical"
-            app:justifyContent="center"
             app:layout_constraintBottom_toBottomOf="parent"
-            tools:ignore="MissingClass">
+            >
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/printerButton"
                 android:layout_width="match_parent"
