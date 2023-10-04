@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_simple"
+        android:title="@string/action_simple"
+        android:icon="@drawable/ic_looks_one_24px"
+        app:iconTint="#FFFFFF"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_advanced"
+        android:title="@string/action_advanced"
+        android:icon="@drawable/ic_looks_two_24px"
+        app:iconTint="#FFFFFF"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_simple_client"
+        android:title="@string/action_simple_client"
+        android:icon="@drawable/ic_looks_3_24px"
+        app:iconTint="#FFFFFF"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_add_client"
+        android:title="@string/action_add_client"
+        android:icon="@drawable/ic_person"
+        app:iconTint="#FFFFFF"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_sync"
+        android:title="@string/action_sync"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_server_settings"
+        android:title="@string/action_server_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_server_clients_settings"
+        android:title="@string/action_server_clients_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_user_log"
+        android:title="@string/action_user_log"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_version_settings"
+        android:title="@string/action_version_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_log_out"
+        android:title="@string/action_log_out"
+        app:showAsAction="never" />
+</menu>
