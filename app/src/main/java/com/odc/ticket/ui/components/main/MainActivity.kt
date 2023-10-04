@@ -10,7 +10,7 @@ class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        startActivity(Intent(this, LoginActivity::class.java))
-//        finish()
+        startActivity(Intent(this, LoginActivity::class.java))
+        finish()
     }
 }
