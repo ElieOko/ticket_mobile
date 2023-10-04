@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/riaSmallSimpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/ria_small"
+            android:textSize="32sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/riaBigSimpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/ria_big"
+            android:textSize="32sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/moneyTransSimpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/money_trans"
+            android:textSize="32sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/moneyGramSimpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/money_gram"
+            android:textSize="32sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sendUSDSimpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/send_usd"
+            android:textSize="32sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sendCDFSimpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/send_cdf"
+            android:textSize="32sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/receiveUSDSimpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/receive_usd"
+            android:textSize="32sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/receiveCDFSimpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/receive_cdf"
+            android:textSize="32sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/specialUSDSimpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/special_usd"
+            android:textSize="32sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/specialCDFSimpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/special_cdf"
+            android:textSize="32sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancelSimpleButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/cancel"
+            android:textSize="32sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

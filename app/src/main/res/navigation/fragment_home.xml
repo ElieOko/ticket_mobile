@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_home.xml"
+    app:startDestination="@id/welcomeFragment">
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.soficom_transfert.tickets.ui.components.home.HomeFragment$WelcomeFragment"
+        android:label="WelcomeFragment"
+        tools:layout="@layout/fragment_home_welcome"/>
+    <fragment
+        android:id="@+id/simpleFragment"
+        android:name="com.soficom_transfert.tickets.ui.components.home.HomeFragment$SimpleFragment"
+        android:label="SimpleFragment"
+        tools:layout="@layout/fragment_home_simple"/>
+    <fragment
+        android:id="@+id/advancedFragment"
+        android:name="com.soficom_transfert.tickets.ui.components.home.HomeFragment$AdvancedFragment"
+        android:label="AdvancedFragment"
+        tools:layout="@layout/fragment_home_advanced"/>
+    <fragment
+        android:id="@+id/clientFragment"
+        android:name="com.soficom_transfert.tickets.ui.components.home.HomeFragment$ClientFragment"
+        android:label="ClientFragment"
+        tools:layout="@layout/fragment_home_client"/>
+</navigation>

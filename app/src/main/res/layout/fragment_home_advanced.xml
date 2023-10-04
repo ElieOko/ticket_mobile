@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sendButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/send"
+            android:textSize="32sp"
+            app:backgroundTint="@color/colorAccent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/receiveButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/receive"
+            android:textSize="32sp"
+            app:backgroundTint="@color/colorAccent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/riaSmallButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/ria_small"
+            android:textSize="32sp"
+            app:backgroundTint="@color/colorAccent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/riaBigButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/ria_big"
+            android:textSize="32sp"
+            app:backgroundTint="@color/colorAccent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/moneyTransButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/money_trans"
+            android:textSize="32sp"
+            app:backgroundTint="@color/colorAccent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/moneyGramButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/money_gram"
+            android:textSize="32sp"
+            app:backgroundTint="@color/colorAccent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/specialButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/special"
+            android:textSize="32sp"
+            app:backgroundTint="@color/colorAccent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/evalButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/eval"
+            android:textSize="36sp"
+            app:backgroundTint="@color/colorAccent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/cancel"
+            android:textSize="32sp"
+            app:backgroundTint="@color/colorAccent" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

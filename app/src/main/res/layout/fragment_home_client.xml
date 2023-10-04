@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/riaSimpleClientButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:text="@string/ria"
+            android:textSize="32sp"
+            app:backgroundTint="@color/material_blue_800" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/moneyTransSimpleClientButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/money_trans"
+            android:textSize="32sp"
+            app:backgroundTint="@color/material_blue_800" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/moneyGramSimpleClientButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/money_gram"
+            android:textSize="32sp"
+            app:backgroundTint="@color/material_blue_800" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sendUSDSimpleClientButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/send_usd"
+            android:textSize="32sp"
+            app:backgroundTint="@color/material_blue_800" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sendCDFSimpleClientButton"
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:layout_margin="8dp"
+            android:textSize="32sp"
+            android:text="@string/send_cdf"
+            app:backgroundTint="@color/material_blue_800" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/receiveUSDSimpleClientButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/receive_usd"
+            android:textSize="32sp"
+            app:backgroundTint="@color/material_blue_800" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/receiveCDFSimpleClientButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:textSize="32sp"
+            android:text="@string/receive_cdf"
+            app:backgroundTint="@color/material_blue_800" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/specialUSDSimpleClientButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:text="@string/special_usd"
+            android:textSize="32sp"
+            app:backgroundTint="@color/material_blue_800" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/specialCDFSimpleClientButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:textSize="32sp"
+            android:text="@string/special_cdf"
+            app:backgroundTint="@color/material_blue_800" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/cancelSimpleClientButton"
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:layout_margin="8dp"
+            android:textSize="32sp"
+            android:text="@string/cancel"
+            app:backgroundTint="@color/material_blue_800" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

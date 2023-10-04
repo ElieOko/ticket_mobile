@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login.xml"
+    app:startDestination="@id/loginFragment"
+    tools:ignore="UnusedNavigation">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:label="LoginFragment"
+        android:name="com.soficom_transfert.tickets.ui.components.login.LoginFragment"
+        tools:layout="@layout/fragment_login" />
+</navigation>

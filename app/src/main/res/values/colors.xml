@@ -5,4 +5,81 @@
     <color name="colorAccent">#212121</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Blue -->
+    <color name="material_blue_500">#2196F3</color>
+    <color name="material_blue_50">#E3F2FD</color>
+    <color name="material_blue_100">#BBDEFB</color>
+    <color name="material_blue_200">#90CAF9</color>
+    <color name="material_blue_300">#64B5F6</color>
+    <color name="material_blue_400">#42A5F5</color>
+    <color name="material_blue_600">#1E88E5</color>
+    <color name="material_blue_700">#1976D2</color>
+    <color name="material_blue_800">#1565C0</color>
+    <color name="material_blue_900">#0D47A1</color>
+    <color name="material_blue_A100">#82B1FF</color>
+    <color name="material_blue_A200">#448AFF</color>
+    <color name="material_blue_A400">#2979FF</color>
+    <color name="material_blue_A700">#2962FF</color>
+    <color name="material_blue_500_10_percent">#1a2196F3</color>
+    <color name="material_blue_500_20_percent">#332196F3</color>
+    <color name="material_blue_500_50_percent">#802196F3</color>
+    <color name="material_blue_600_65_percent">#A51E88E5</color>
+
+    <!-- Modified Blue -->
+    <color name="material_modified_blue_500">#478fcc</color>
+    <color name="material_modified_blue_50">#e4f1fb</color>
+    <color name="material_modified_blue_100">#bdddf4</color>
+    <color name="material_modified_blue_200">#95c7ec</color>
+    <color name="material_modified_blue_300">#70b2e1</color>
+    <color name="material_modified_blue_400">#569fd7</color>
+    <color name="material_modified_blue_600">#3d82c4</color>
+    <color name="material_modified_blue_700">#3374ba</color>
+    <color name="material_modified_blue_800">#2a65b0</color>
+    <color name="material_modified_blue_900">#14499e</color>
+    <color name="material_modified_blue_A100">#8caedb</color>
+    <color name="material_modified_blue_A200">#5880c1</color>
+    <color name="material_modified_blue_A400">#4972b8</color>
+    <color name="material_modified_blue_A700">#4666af</color>
+    <color name="material_modified_blue_500_10_percent">#1a478fcc</color>
+    <color name="material_modified_blue_500_20_percent">#33478fcc</color>
+    <color name="material_modified_blue_500_50_percent">#80478fcc</color>
+
+    <!-- Light Blue -->
+    <color name="material_light_blue_500">#03A9F4</color>
+    <color name="material_light_blue_50">#E1F5FE</color>
+    <color name="material_light_blue_100">#B3E5FC</color>
+    <color name="material_light_blue_200">#81D4FA</color>
+    <color name="material_light_blue_300">#4FC3F7</color>
+    <color name="material_light_blue_400">#29B6F6</color>
+    <color name="material_light_blue_600">#039BE5</color>
+    <color name="material_light_blue_700">#0288D1</color>
+    <color name="material_light_blue_800">#0277BD</color>
+    <color name="material_light_blue_900">#01579B</color>
+    <color name="material_light_blue_A100">#80D8FF</color>
+    <color name="material_light_blue_A200">#40C4FF</color>
+    <color name="material_light_blue_A400">#00B0FF</color>
+    <color name="material_light_blue_A700">#0091EA</color>
+    <color name="material_light_blue_500_10_percent">#1a03A9F4</color>
+    <color name="material_light_blue_500_20_percent">#3303A9F4</color>
+    <color name="material_light_blue_500_50_percent">#8003A9F4</color>
+    <color name="material_light_blue_700_100_percent">#FF0288D1</color>
+
+    <!-- Cyan -->
+    <color name="material_cyan_500">#00BCD4</color>
+    <color name="material_cyan_50">#E0F7FA</color>
+    <color name="material_cyan_100">#B2EBF2</color>
+    <color name="material_cyan_200">#80DEEA</color>
+    <color name="material_cyan_300">#4DD0E1</color>
+    <color name="material_cyan_400">#26C6DA</color>
+    <color name="material_cyan_600">#00ACC1</color>
+    <color name="material_cyan_700">#0097A7</color>
+    <color name="material_cyan_800">#00838F</color>
+    <color name="material_cyan_900">#006064</color>
+    <color name="material_cyan_A100">#84FFFF</color>
+    <color name="material_cyan_A200">#18FFFF</color>
+    <color name="material_cyan_A400">#00E5FF</color>
+    <color name="material_cyan_A700">#00B8D4</color>
+    <color name="material_cyan_500_10_percent">#1a00BCD4</color>
+    <color name="material_cyan_500_20_percent">#3300BCD4</color>
+    <color name="material_cyan_500_50_percent">#8000BCD4</color>
 </resources>
