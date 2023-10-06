@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/default_printer">
+        <ListPreference
+            android:icon="@drawable/ic_print_24px"
+            android:key="default_printer"
+            android:title="@string/printer"
+            android:entries="@array/printer_types_names"
+            android:entryValues="@array/printer_types_values"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/printer_types">
+        <Preference
+            android:icon="@drawable/ic_bluetooth_24px"
+            android:key="bluetooth_printer"
+            android:title="@string/bluetooth_printer"/>
+        <Preference
+            android:icon="@drawable/ic_wifi_24px"
+            android:key="wifi_printer"
+            android:title="@string/wifi_printer" />
+        <Preference
+            android:icon="@drawable/ic_usb_24px"
+            android:key="usb_printer"
+            android:title="@string/usb_printer" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
